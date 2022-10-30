@@ -1,6 +1,6 @@
-# wmf-remote
+# wmf-host
 
-Приложение - Remote
+Приложение - Remote - Для динамической загрузки (runtime) модулей WMF
 
 ## Guide
 
@@ -8,9 +8,9 @@
 
 ```bash
 
-git clone https://github.com/Hydrock/wmf-host.git
+git clone https://github.com/Hydrock/wmf-host-dynamic-remote.git
 
-git clone https://github.com/Hydrock/wmf-remote.git
+git clone https://github.com/Hydrock/wmf-remote-dynamic-remote.git
 
 ```
 
@@ -29,5 +29,3 @@ yarn start
 **Host** приложение будет запущено на порту **8081**.
 
 **Remote** приложение будет запущено на порту **8082**.
-
-Приятных экспериментов!
