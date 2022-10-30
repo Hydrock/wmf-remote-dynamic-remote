@@ -1,0 +1,37 @@
+{
+    "name": "wmf-remote",
+    "version": "1.0.0",
+    "description": "webpack module federation test - remote",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "webpack-dev-server --mode development --open --hot --port 8082",
+        "build": "webpack --mode production"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Hydrock/wmf-remote.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Hydrock/wmf-remote/issues"
+    },
+    "homepage": "https://github.com/Hydrock/wmf-remote#readme",
+    "devDependencies": {
+        "@babel/core": "^7.15.8",
+        "@babel/preset-env": "^7.15.8",
+        "@babel/preset-react": "^7.14.5",
+        "babel-loader": "^8.2.2",
+        "css-loader": "^6.4.0",
+        "html-webpack-plugin": "^5.3.2",
+        "style-loader": "^3.3.0",
+        "webpack": "^5.74.0",
+        "webpack-cli": "^4.10.0",
+        "webpack-dev-server": "^4.9.3"
+    },
+    "dependencies": {
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
+    }
+}
