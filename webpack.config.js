@@ -26,7 +26,8 @@ module.exports = {
             name: 'remoteApp',
             filename: "remoteEntry.js",
             exposes: {
-                "./RemoteComponent": "./src/components/RemoteComponent.js",
+                "./RemoteComponent1": "./src/components/RemoteComponent1.js",
+                "./RemoteComponent2": "./src/components/RemoteComponent2.js",
             },
             shared: {
                 react: {
