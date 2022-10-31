@@ -1,4 +1,4 @@
-# wmf-host
+# wmf-remote
 
 Приложение - Remote - Для динамической загрузки (runtime) модулей WMF
 
@@ -20,7 +20,7 @@ git clone https://github.com/Hydrock/wmf-remote-dynamic-remote.git
 yarn install
 ```
 
-**III)** Запустите оба приложения 
+**III)** Запустите оба приложения
 
 ```bash
 yarn start
